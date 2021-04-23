@@ -4,7 +4,7 @@ import DetallesProducto from "../components/layout/DetallesProducto";
 import useProductos from "../hooks/useProductos";
 
 export default function Home() {
-  const { productos } = useProductos("creado");
+  const { productos } = useProductos("votos");
   return (
     <div>
       <Layout>

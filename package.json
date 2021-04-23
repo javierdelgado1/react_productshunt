@@ -2,10 +2,12 @@
   "name": "producthuntnext",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://javierdelgado.com.ve/portafolio/react/producthunt",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@babel/core": "^7.13.15",
